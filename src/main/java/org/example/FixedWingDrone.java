@@ -20,8 +20,7 @@ public class FixedWingDrone extends Drone implements AdvanceRecon {
     public void interceptSignal() {
         System.out.println(getCallsign() + " intercepts and analyzes radio frequencies.");
     }
-
-    // Let's override the default method for this advanced drone.
+    
     @Override
     public void record4kVideo() {
         System.out.println("Engaging gimbal-stabilized 4K video recording.");
